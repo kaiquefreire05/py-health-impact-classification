@@ -1,0 +1,215 @@
+2024-06-21 21:26:06,617 - INFO- As colunas desse dataframe é: 
+2024-06-21 21:26:06,617 - INFO- RecordID
+2024-06-21 21:26:06,617 - INFO- AQI
+2024-06-21 21:26:06,617 - INFO- PM10
+2024-06-21 21:26:06,617 - INFO- PM2_5
+2024-06-21 21:26:06,617 - INFO- NO2
+2024-06-21 21:26:06,617 - INFO- SO2
+2024-06-21 21:26:06,617 - INFO- O3
+2024-06-21 21:26:06,617 - INFO- Temperature
+2024-06-21 21:26:06,617 - INFO- Humidity
+2024-06-21 21:26:06,617 - INFO- WindSpeed
+2024-06-21 21:26:06,617 - INFO- RespiratoryCases
+2024-06-21 21:26:06,617 - INFO- CardiovascularCases
+2024-06-21 21:26:06,617 - INFO- HospitalAdmissions
+2024-06-21 21:26:06,617 - INFO- HealthImpactScore
+2024-06-21 21:26:06,617 - INFO- HealthImpactClass
+2024-06-21 21:26:06,637 - INFO-           RecordID          AQI  ...  HealthImpactScore  HealthImpactClass
+count  5811.000000  5811.000000  ...        5811.000000        5811.000000
+mean   2906.000000   248.438476  ...          93.785223           0.281191
+std    1677.635538   144.777638  ...          13.318904           0.714075
+min       1.000000     0.005817  ...          22.448488           0.000000
+25%    1453.500000   122.951293  ...          98.203057           0.000000
+50%    2906.000000   249.127841  ...         100.000000           0.000000
+75%    4358.500000   373.630668  ...         100.000000           0.000000
+max    5811.000000   499.858837  ...         100.000000           4.000000
+
+[8 rows x 15 columns]
+2024-06-21 21:26:42,327 - INFO- None
+2024-06-21 21:27:00,237 - INFO- None
+2024-06-21 21:28:12,899 - INFO- Verificando a existência de valores nulos: 
+2024-06-21 21:28:12,899 - INFO- RecordID               0
+AQI                    0
+PM10                   0
+PM2_5                  0
+NO2                    0
+SO2                    0
+O3                     0
+Temperature            0
+Humidity               0
+WindSpeed              0
+RespiratoryCases       0
+CardiovascularCases    0
+HospitalAdmissions     0
+HealthImpactScore      0
+HealthImpactClass      0
+dtype: int64
+
+------------------------------------------------------------------------------------------------------
+
+2024-06-21 22:47:26,966 - INFO- As colunas desse dataframe é: 
+2024-06-21 22:47:26,966 - INFO- RecordID
+2024-06-21 22:47:26,966 - INFO- AQI
+2024-06-21 22:47:26,966 - INFO- PM10
+2024-06-21 22:47:26,966 - INFO- PM2_5
+2024-06-21 22:47:26,966 - INFO- NO2
+2024-06-21 22:47:26,966 - INFO- SO2
+2024-06-21 22:47:26,966 - INFO- O3
+2024-06-21 22:47:26,966 - INFO- Temperature
+2024-06-21 22:47:26,966 - INFO- Humidity
+2024-06-21 22:47:26,966 - INFO- WindSpeed
+2024-06-21 22:47:26,966 - INFO- RespiratoryCases
+2024-06-21 22:47:26,966 - INFO- CardiovascularCases
+2024-06-21 22:47:26,966 - INFO- HospitalAdmissions
+2024-06-21 22:47:26,966 - INFO- HealthImpactScore
+2024-06-21 22:47:26,966 - INFO- HealthImpactClass
+2024-06-21 22:47:26,976 - INFO-           RecordID          AQI  ...  HealthImpactScore  HealthImpactClass
+count  5811.000000  5811.000000  ...        5811.000000        5811.000000
+mean   2906.000000   248.438476  ...          93.785223           0.281191
+std    1677.635538   144.777638  ...          13.318904           0.714075
+min       1.000000     0.005817  ...          22.448488           0.000000
+25%    1453.500000   122.951293  ...          98.203057           0.000000
+50%    2906.000000   249.127841  ...         100.000000           0.000000
+75%    4358.500000   373.630668  ...         100.000000           0.000000
+max    5811.000000   499.858837  ...         100.000000           4.000000
+
+[8 rows x 15 columns]
+2024-06-21 22:47:26,986 - INFO- None
+2024-06-21 22:47:26,986 - INFO- Verificando a existência de valores nulos: 
+2024-06-21 22:47:26,986 - INFO- RecordID               0
+AQI                    0
+PM10                   0
+PM2_5                  0
+NO2                    0
+SO2                    0
+O3                     0
+Temperature            0
+Humidity               0
+WindSpeed              0
+RespiratoryCases       0
+CardiovascularCases    0
+HospitalAdmissions     0
+HealthImpactScore      0
+HealthImpactClass      0
+dtype: int64
+2024-06-21 22:56:21,726 - INFO- O shape da variável X é: (5811, 12)
+2024-06-21 22:56:21,726 - INFO- O shape da variável Y é: (5811,)
+2024-06-21 22:57:24,614 - INFO- O shape da variável X é: (5811, 12)
+2024-06-21 22:57:24,614 - INFO- O shape da variável Y é: (5811,)
+2024-06-21 23:00:37,466 - INFO- O shape das classes é: (5811, 5)
+2024-06-21 23:05:20,326 - INFO- O shape das variáveis de treino é: (4648, 12), (4648, 5)
+2024-06-21 23:05:20,326 - INFO- O shape das variáveis de teste é: (1163, 12), (1163, 5)2024-06-21 23:56:49,922 - INFO- Epoch 1: loss=0.7295, val_loss=0.5556
+2024-06-21 23:56:50,094 - INFO- Epoch 2: loss=0.5166, val_loss=0.5154
+2024-06-21 23:56:50,271 - INFO- Epoch 3: loss=0.4835, val_loss=0.4902
+2024-06-21 23:56:50,442 - INFO- Epoch 4: loss=0.4500, val_loss=0.4633
+2024-06-21 23:56:50,790 - INFO- Epoch 5: loss=0.4267, val_loss=0.4449
+2024-06-21 23:56:50,964 - INFO- Epoch 6: loss=0.4041, val_loss=0.4293
+2024-06-21 23:56:51,141 - INFO- Epoch 7: loss=0.3857, val_loss=0.4210
+2024-06-21 23:56:51,323 - INFO- Epoch 8: loss=0.3709, val_loss=0.4076
+2024-06-21 23:56:51,499 - INFO- Epoch 9: loss=0.3660, val_loss=0.4003
+2024-06-21 23:56:51,684 - INFO- Epoch 10: loss=0.3518, val_loss=0.3869
+2024-06-21 23:56:51,859 - INFO- Epoch 11: loss=0.3471, val_loss=0.3811
+2024-06-21 23:56:52,048 - INFO- Epoch 12: loss=0.3350, val_loss=0.3765
+2024-06-21 23:56:52,216 - INFO- Epoch 13: loss=0.3246, val_loss=0.3664
+2024-06-21 23:56:52,389 - INFO- Epoch 14: loss=0.3201, val_loss=0.3675
+2024-06-21 23:56:52,556 - INFO- Epoch 15: loss=0.3134, val_loss=0.3596
+2024-06-21 23:56:52,739 - INFO- Epoch 16: loss=0.3072, val_loss=0.3543
+2024-06-21 23:56:52,924 - INFO- Epoch 17: loss=0.3046, val_loss=0.3536
+2024-06-21 23:56:53,092 - INFO- Epoch 18: loss=0.2983, val_loss=0.3471
+2024-06-21 23:56:53,255 - INFO- Epoch 19: loss=0.2924, val_loss=0.3449
+2024-06-21 23:56:53,421 - INFO- Epoch 20: loss=0.2865, val_loss=0.3390
+2024-06-21 23:56:53,595 - INFO- Epoch 21: loss=0.2821, val_loss=0.3397
+2024-06-21 23:56:53,766 - INFO- Epoch 22: loss=0.2773, val_loss=0.3328
+2024-06-21 23:56:53,934 - INFO- Epoch 23: loss=0.2758, val_loss=0.3354
+2024-06-21 23:56:54,101 - INFO- Epoch 24: loss=0.2768, val_loss=0.3339
+2024-06-21 23:56:54,268 - INFO- Epoch 25: loss=0.2688, val_loss=0.3273
+2024-06-21 23:56:54,436 - INFO- Epoch 26: loss=0.2670, val_loss=0.3259
+2024-06-21 23:56:54,619 - INFO- Epoch 27: loss=0.2666, val_loss=0.3209
+2024-06-21 23:56:54,804 - INFO- Epoch 28: loss=0.2644, val_loss=0.3216
+2024-06-21 23:56:54,992 - INFO- Epoch 29: loss=0.2607, val_loss=0.3230
+2024-06-21 23:56:55,158 - INFO- Epoch 30: loss=0.2546, val_loss=0.3220
+2024-06-21 23:56:55,325 - INFO- Epoch 31: loss=0.2564, val_loss=0.3275
+2024-06-21 23:56:55,495 - INFO- Epoch 32: loss=0.2531, val_loss=0.3178
+2024-06-21 23:56:55,659 - INFO- Epoch 33: loss=0.2540, val_loss=0.3198
+2024-06-21 23:56:55,832 - INFO- Epoch 34: loss=0.2459, val_loss=0.3202
+2024-06-21 23:56:56,001 - INFO- Epoch 35: loss=0.2496, val_loss=0.3176
+2024-06-21 23:56:56,195 - INFO- Epoch 36: loss=0.2402, val_loss=0.3146
+2024-06-21 23:56:56,387 - INFO- Epoch 37: loss=0.2427, val_loss=0.3143
+2024-06-21 23:56:56,572 - INFO- Epoch 38: loss=0.2431, val_loss=0.3181
+2024-06-21 23:56:56,782 - INFO- Epoch 39: loss=0.2402, val_loss=0.3149
+2024-06-21 23:56:56,994 - INFO- Epoch 40: loss=0.2360, val_loss=0.3149
+2024-06-21 23:56:57,203 - INFO- Epoch 41: loss=0.2367, val_loss=0.3144
+2024-06-21 23:56:57,384 - INFO- Epoch 42: loss=0.2371, val_loss=0.3133
+2024-06-21 23:56:57,558 - INFO- Epoch 43: loss=0.2374, val_loss=0.3139
+2024-06-21 23:56:57,726 - INFO- Epoch 44: loss=0.2343, val_loss=0.3169
+2024-06-21 23:56:57,897 - INFO- Epoch 45: loss=0.2320, val_loss=0.3189
+2024-06-21 23:56:58,065 - INFO- Epoch 46: loss=0.2286, val_loss=0.3176
+2024-06-21 23:56:58,236 - INFO- Epoch 47: loss=0.2266, val_loss=0.3220
+2024-06-21 23:56:58,410 - INFO- Epoch 48: loss=0.2252, val_loss=0.3191
+2024-06-21 23:56:58,588 - INFO- Epoch 49: loss=0.2267, val_loss=0.3196
+2024-06-21 23:56:58,776 - INFO- Epoch 50: loss=0.2236, val_loss=0.3195
+2024-06-21 23:56:58,944 - INFO- Epoch 51: loss=0.2274, val_loss=0.3182
+2024-06-21 23:56:59,152 - INFO- Epoch 52: loss=0.2213, val_loss=0.3139
+2024-06-21 23:56:59,344 - INFO- Epoch 53: loss=0.2174, val_loss=0.3187
+2024-06-21 23:56:59,533 - INFO- Epoch 54: loss=0.2170, val_loss=0.3181
+2024-06-21 23:56:59,729 - INFO- Epoch 55: loss=0.2188, val_loss=0.3223
+2024-06-21 23:56:59,909 - INFO- Epoch 56: loss=0.2204, val_loss=0.3170
+2024-06-21 23:57:00,090 - INFO- Epoch 57: loss=0.2179, val_loss=0.3180
+2024-06-21 23:57:00,269 - INFO- Epoch 58: loss=0.2180, val_loss=0.3173
+2024-06-21 23:57:00,448 - INFO- Epoch 59: loss=0.2161, val_loss=0.3234
+2024-06-21 23:57:00,629 - INFO- Epoch 60: loss=0.2162, val_loss=0.3179
+2024-06-21 23:57:00,809 - INFO- Epoch 61: loss=0.2125, val_loss=0.3227
+2024-06-21 23:57:01,000 - INFO- Epoch 62: loss=0.2126, val_loss=0.3213
+2024-06-21 23:57:01,178 - INFO- Epoch 63: loss=0.2106, val_loss=0.3267
+2024-06-21 23:57:01,353 - INFO- Epoch 64: loss=0.2068, val_loss=0.3182
+2024-06-21 23:57:01,522 - INFO- Epoch 65: loss=0.2096, val_loss=0.3179
+2024-06-21 23:57:01,690 - INFO- Epoch 66: loss=0.2095, val_loss=0.3261
+2024-06-21 23:57:01,861 - INFO- Epoch 67: loss=0.2085, val_loss=0.3215
+2024-06-21 23:57:02,029 - INFO- Epoch 68: loss=0.2006, val_loss=0.3320
+2024-06-21 23:57:02,199 - INFO- Epoch 69: loss=0.2035, val_loss=0.3201
+2024-06-21 23:57:02,367 - INFO- Epoch 70: loss=0.2062, val_loss=0.3252
+2024-06-21 23:57:02,537 - INFO- Epoch 71: loss=0.1980, val_loss=0.3261
+2024-06-21 23:57:02,723 - INFO- Epoch 72: loss=0.2045, val_loss=0.3349
+2024-06-21 23:57:02,926 - INFO- Epoch 73: loss=0.2057, val_loss=0.3278
+2024-06-21 23:57:03,135 - INFO- Epoch 74: loss=0.2011, val_loss=0.3309
+2024-06-21 23:57:03,341 - INFO- Epoch 75: loss=0.1973, val_loss=0.3257
+2024-06-21 23:57:03,536 - INFO- Epoch 76: loss=0.1964, val_loss=0.3314
+2024-06-21 23:57:03,743 - INFO- Epoch 77: loss=0.1998, val_loss=0.3340
+2024-06-21 23:57:03,919 - INFO- Epoch 78: loss=0.2002, val_loss=0.3335
+2024-06-21 23:57:04,084 - INFO- Epoch 79: loss=0.2006, val_loss=0.3323
+2024-06-21 23:57:04,252 - INFO- Epoch 80: loss=0.1965, val_loss=0.3254
+2024-06-21 23:57:04,420 - INFO- Epoch 81: loss=0.1954, val_loss=0.3319
+2024-06-21 23:57:04,588 - INFO- Epoch 82: loss=0.1949, val_loss=0.3275
+2024-06-21 23:57:04,756 - INFO- Epoch 83: loss=0.1899, val_loss=0.3338
+2024-06-21 23:57:04,928 - INFO- Epoch 84: loss=0.1932, val_loss=0.3345
+2024-06-21 23:57:05,094 - INFO- Epoch 85: loss=0.1943, val_loss=0.3353
+2024-06-21 23:57:05,262 - INFO- Epoch 86: loss=0.2006, val_loss=0.3366
+2024-06-21 23:57:05,432 - INFO- Epoch 87: loss=0.1880, val_loss=0.3369
+2024-06-21 23:57:05,599 - INFO- Epoch 88: loss=0.1944, val_loss=0.3359
+2024-06-21 23:57:05,763 - INFO- Epoch 89: loss=0.1931, val_loss=0.3296
+2024-06-21 23:57:05,934 - INFO- Epoch 90: loss=0.1897, val_loss=0.3349
+2024-06-21 23:57:06,118 - INFO- Epoch 91: loss=0.1887, val_loss=0.3346
+2024-06-21 23:57:06,296 - INFO- Epoch 92: loss=0.1877, val_loss=0.3345
+2024-06-21 23:57:06,473 - INFO- Epoch 93: loss=0.1886, val_loss=0.3331
+2024-06-21 23:57:06,643 - INFO- Epoch 94: loss=0.1903, val_loss=0.3330
+2024-06-21 23:57:06,862 - INFO- Epoch 95: loss=0.1876, val_loss=0.3373
+2024-06-21 23:57:07,111 - INFO- Epoch 96: loss=0.1908, val_loss=0.3377
+2024-06-21 23:57:07,344 - INFO- Epoch 97: loss=0.1846, val_loss=0.3451
+2024-06-21 23:57:07,535 - INFO- Epoch 98: loss=0.1876, val_loss=0.3413
+2024-06-21 23:57:07,896 - INFO- Epoch 99: loss=0.1895, val_loss=0.3417
+2024-06-21 23:57:08,111 - INFO- Epoch 100: loss=0.1814, val_loss=0.3445
+2024-06-22 00:12:22,877 - INFO- A acurácia do modelo é: 0.9355116079105761
+2024-06-22 00:12:22,882 - INFO- Classification Report: 
+
+               precision    recall  f1-score   support
+
+           0       0.95      1.00      0.97       953
+           1       0.92      0.81      0.86       124
+           2       0.67      0.66      0.67        53
+           3       1.00      0.10      0.18        20
+           4       0.00      0.00      0.00        13
+
+    accuracy                           0.94      1163
+   macro avg       0.71      0.51      0.54      1163
+weighted avg       0.92      0.94      0.92      1163
+
